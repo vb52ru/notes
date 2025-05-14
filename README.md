@@ -8,7 +8,7 @@ git --no-pager log --pretty="%C(bold blue)%ad%C(reset) - %C(red)%h%C(reset) - %C
 
 ## Vim
 ### .vimrc
-```properties
+```bash
 set number
 syntax on
 set tabstop=2
