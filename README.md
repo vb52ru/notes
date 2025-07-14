@@ -16,6 +16,7 @@ set shiftwidth=2
 set smarttab
 set expandtab
 set smartindent
+colorscheme desert
 ```
 
 ## Python
