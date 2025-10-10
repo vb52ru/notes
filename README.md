@@ -1,26 +1,6 @@
 # Заметки
-## Git
-### Удобный вывод git log
-```sh
-alias gitlog='git --no-pager log --pretty="%C(bold blue)%ad%C(reset) - %C(red)%h%C(reset) - %C(yellow)%d%C(reset) %s %C(green)(%cr) %C(bold blue)<%an>%C(reset)" --date=format-local:"%Y-%m-%d %H:%M:%S" $*'
-```
-### Настройки
-```sh
-git config --global pager.log false
-```
-
-## Vim
-### .vimrc
-```bash
-set number
-syntax on
-set tabstop=2
-set shiftwidth=2
-set smarttab
-set expandtab
-set smartindent
-colorscheme desert
-```
+## Debian setup
+zsh -c "$(wget https://raw.githubusercontent.com/vb52ru/notes/refs/heads/main/setup.sh -O -)"
 
 ## Python
 ### Установка из исходников
